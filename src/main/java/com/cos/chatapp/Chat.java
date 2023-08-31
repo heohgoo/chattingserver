@@ -14,7 +14,9 @@ public class Chat {
 
     private String msg;
     private String sender;
-    private String receiver;
+    private String receiver; // 귓속말을 위한 객체(일대일 채팅)
+    private Integer roomNum;
+
     private LocalDateTime createdAt;
 
 
